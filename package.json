@@ -1,13 +1,19 @@
 {
+  "homepage": "https://rksorry7255tu.github.io/Food-App1.1",
   "name": "my-app4project2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start":"react-scripts start",
     "dev": "vite",
     "build": "vite build",
+    "test":"react-scripts test",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eject":"react-scripts eject"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
